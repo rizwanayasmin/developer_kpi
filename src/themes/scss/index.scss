@@ -1,0 +1,20 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "./functions.scss";
+@import "./variables.scss";
+@import "./common.scss";
+
+body {
+  font-family: "Verdana", sans-serif;
+  padding: 0px !important;
+  cursor: default;
+}
+
+.font-verdana {
+  font-family: "Verdana";
+  font-size: 36px;
+}
+
+.font-verdana-bold {
+  font-family: "Verdana-bold";
+  font-size: 36px;
+}

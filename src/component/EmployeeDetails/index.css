@@ -1,0 +1,14 @@
+.employee-card{
+    background-color: #ffffff;
+    color: #000;
+    padding: 12px;
+    box-shadow:0px 4px 10px 3px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+}
+.detail-span{
+    color: grey;
+    font-size: 14px;
+}
+.details-title{
+    color: red;
+}

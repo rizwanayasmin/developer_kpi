@@ -1,0 +1,98 @@
+
+.menu_adjust{
+margin: 6px;
+}
+.activeBar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 12px;
+  text-decoration: none !important;
+  :hover {
+    text-decoration: none !important;
+  }
+}
+
+.activeBarImg {
+  color: #20B169;
+    background-color: white;
+    border-radius: 18px;
+    text-decoration: none !important;
+    padding: 8px;
+  :hover {
+    text-decoration: none !important;
+  }
+}
+
+.inActiveBar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #333333;
+  margin-left: 12px;
+  text-decoration: none !important;
+  :hover {
+    text-decoration: none !important;
+  }
+}
+.inactiveBarImg{
+  color: #333333;
+  text-decoration: none !important;
+  :hover {
+    text-decoration: none !important;
+  }
+  img{
+    color: #333333;
+  }
+}
+.active-div {
+  background-color: #20B169 !important;
+  border-radius: 8px !important;
+}
+
+.MuiList-padding {
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+}
+.makeStyles-toolbar-6{
+min-height: 0px !important;
+}
+.logout_list{
+  position: relative;
+  top: 340px;
+  border-top: 1px solid #DDDFE1;
+}
+
+.inactivebar-icon{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.activebar-icon{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.jss6{
+  min-height: 0px !important;
+}
+.jss46{
+  min-height: 0px !important;
+}
+
+.jss31{
+  min-height: 0px !important;
+}
+
+.jss56{
+  min-height: 0px !important;
+}

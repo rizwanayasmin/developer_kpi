@@ -1,0 +1,33 @@
+.login-img{
+    width: 100vh;
+    height: 100vh;
+}
+.left-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent-login{
+    text-align: center;  
+}
+.login-title{
+    position: relative;
+    top: -40px;
+}
+.login-title-text{
+    color: gray;
+}
+.user-input{
+    margin-left: 6px;
+    border-color: silver;
+    border-radius: 6px;
+    padding: 6px;
+}
+.login-btn{
+    width: 100px;
+    border: 2px solid darkolivegreen;
+    border-radius: 6px;
+    padding: 6px;
+    background-color: darkolivegreen;
+    color: white;
+}

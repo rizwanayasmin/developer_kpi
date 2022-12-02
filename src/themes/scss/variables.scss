@@ -1,0 +1,47 @@
+$primary-color-blue: #29a6dd;
+$secondary-color-green: #87d63f;
+$black: #231f20;
+$black-50: #505050;
+$black-1c: #1c2c25;
+$grey: #929292;
+$grey-65: #696464;
+$black-4D: #4d4d4d;
+$primary-color: #2a468d;
+$secondary-color: #4a5c7b;
+$green-18: #22db3b;
+$white: #fff;
+$danger: #ed1f24;
+$black: #000;
+$orange: #f49d37;
+$grey: #828282;
+$grey-65: #6b6b6b;
+$gray-sideBar: #bdbdbd;
+$gray-header: #f4f4f4;
+$full-height: 100vh;
+$background-white: #fbfbfb;
+$border-grey: #c4c4c4;
+$table-grey: #e0e0e0;
+$common-white: #fafafa;
+
+/* Color */
+$myColors: (
+  "white": $white,
+  "grey": $gray-sideBar,
+  "grey-82": $grey,
+  "primary-color": $primary-color-blue,
+);
+
+@each $name, $colors in $myColors {
+  $index: index($myColors, $colors);
+  .text-#{$name} {
+    color: $colors;
+  }
+  .bg-#{$name} {
+    background-color: $colors;
+  }
+  .bc-#{$name} {
+    border-color: $colors;
+  }
+}
+
+$full-height: 100vh;

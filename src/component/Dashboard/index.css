@@ -1,0 +1,20 @@
+.dashboard-right{
+    background-color: #d3d3d3;
+}
+.dasboard-parent-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-card{
+    background-color: #ffffff;
+    color: #000;
+    padding: 12px;
+    box-shadow:0px 4px 10px 3px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    margin: 46px;
+    height: 130px;
+}
+.kpi-count{
+    text-align: center;
+}
